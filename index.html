@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Заголовок</title>
+</head>
+<body>
+
+<header class="header">
+    <div class="header__actions">
+        <a class="logo" href="/" aria-label="На главную">rwb</a>
+
+        <button class="icon-btn" type="button" aria-label="Приложения">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round">
+                <rect x="3" y="3" width="7" height="7" rx="1.5" />
+                <rect x="14" y="3" width="7" height="7" rx="1.5" />
+                <rect x="3" y="14" width="7" height="7" rx="1.5" />
+                <rect x="14" y="14" width="7" height="7" rx="1.5" />
+            </svg>
+        </button>
+
+        <button class="icon-btn" type="button" aria-label="Тема">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+            </svg>
+        </button>
+    </div>
+
+    <h1 class="header__title">
+        (SAD) Интерфейс работы с поставщиками
+        <span class="header__version">(v.0.6.67)</span>
+    </h1>
+
+    <div class="header__user">
+        <div class="user__meta">
+            <div class="user__name">Зырянов Вадим Эдуардович</div>
+            <div class="user__eid">
+                EID: 123456
+                <button class="user__copy" type="button" aria-label="Скопировать EID">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M8 9V6a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2" />
+                        <path d="M3 9H14v10a1 1 0 0 1-1 1H8l-5-5V9z" />
+                        <path d="M8 20V15H3" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="user__avatar">ЗВ</div>
+    </div>
+</header>
+
+<main class="main">
+    <ul class="cards">
+        <li class="card">
+            <h2 class="card__title"># FED</h2>
+            <p class="card__desc">документооборот</p>
+            <a class="card__link" href="#">Перейти</a>
+        </li>
+
+        <li class="card">
+            <h2 class="card__title"># FRP FIN-FRP Интерфейс по работе с платежами</h2>
+            <p class="card__desc">Создание разовых и периодических платежей</p>
+            <a class="card__link" href="#">Перейти</a>
+        </li>
+
+        <li class="card">
+            <h2 class="card__title"># SSP Админка для портала поставщиков услуг</h2>
+            <p class="card__desc">Админка для управления по проекту SSP</p>
+            <a class="card__link" href="#">Перейти</a>
+        </li>
+
+        <li class="card">
+            <h2 class="card__title"># FIN-SAD Интерфейс работы с поставщиками</h2>
+            <p class="card__desc">Система документооборота компании. Основной функционал работа с поставщиками и их документами</p>
+            <a class="card__link" href="#">Перейти</a>
+        </li>
+
+        <li class="card">
+            <h2 class="card__title"># FTP Интерфейс казначейского шлюза</h2>
+            <p class="card__desc">Казначейский шлюз клеймы начинаются с FTP</p>
+            <a class="card__link" href="#">Перейти</a>
+        </li>
+
+        <li class="card">
+            <h2 class="card__title"># FA FINANCE-AUTH Админка по работе с правами на финансовые сервисы</h2>
+            <p class="card__desc">Интерфейс авторизации для интерфейсов финансового отдела</p>
+            <a class="card__link" href="#">Перейти</a>
+        </li>
+
+        <li class="card">
+            <h2 class="card__title"># FIN-DICTIONARIES Справочники финансов</h2>
+            <p class="card__desc">Новый проект по словарям.</p>
+            <a class="card__link" href="#">Перейти</a>
+        </li>
+
+        <li class="card">
+            <h2 class="card__title"># FBS</h2>
+            <p class="card__desc">Finance bank statements — банковские выписки</p>
+            <a class="card__link" href="#">Перейти</a>
+        </li>
+
+        <li class="card">
+            <h2 class="card__title"># FBC</h2>
+            <p class="card__desc">Контроль бюджета</p>
+            <a class="card__link" href="#">Перейти</a>
+        </li>
+
+        <li class="card">
+            <h2 class="card__title"># FIN-EDI</h2>
+            <p class="card__desc">тут могла быть ваша реклама</p>
+            <a class="card__link" href="#">Перейти</a>
+        </li>
+
+        <li class="card">
+            <h2 class="card__title"># FIN-COUNTERPARTY</h2>
+            <p class="card__desc">Получение информации о контрагентах</p>
+            <a class="card__link" href="#">Перейти</a>
+        </li>
+
+        <li class="card">
+            <h2 class="card__title"># FINAGR — Менеджер по согласованию</h2>
+            <p class="card__desc">Агримент</p>
+            <a class="card__link" href="#">Перейти</a>
+        </li>
+    </ul>
+</main>
+
+</body>
+</html>
