@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Заголовок</title>
+</head>
+<body style="margin: 0; font-family: 'ALS Hauss', system-ui, -apple-system, sans-serif; color: #141414; background: #f2f4f9;">
+
+<header style="display: flex; flex-wrap: wrap; gap: 4px; padding: 8px; border-bottom: 1px solid #e2e2e2;">
+    <div style="display: flex; flex: 2; align-items: center; flex-wrap: wrap; gap: 8px;">
+        <div style="display: flex; flex: 1; gap: 8px;">
+            <a href="/" aria-label="На главную" style="display: flex; align-items: center; text-decoration: none;">
+                <svg width="36" height="12" viewBox="158 112 242 82" fill="#8553be" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M291.992 154.974L278.085 129.99H273.018L259.107 154.975L245.196 129.99H229.543L255.12 175.964H263.093L275.552 153.569L288.004 175.964H295.977L321.554 129.99H305.902L291.992 154.974Z" />
+                    <path d="M209.198 129.99H158.062V142.614H206.473C212.142 142.614 216.738 147.246 216.738 152.96C216.738 158.674 212.142 163.306 206.473 163.306H158.062V175.963H201.821L211.082 193.589H226.747L216.797 174.65C225.656 171.495 232.006 162.984 232.006 152.976C232.006 140.28 221.794 129.989 209.198 129.989L209.198 129.99Z" />
+                    <path d="M376.916 129.99H341.048V112.363H325.781V142.614H374.192C379.861 142.614 384.457 147.246 384.457 152.96C384.457 158.674 379.861 163.306 374.192 163.306H325.781V175.963H376.916C389.513 175.963 399.724 165.672 399.724 152.977C399.724 140.281 389.513 129.99 376.916 129.99Z" />
+                </svg>
+            </a>
+
+            <button type="button" aria-label="Приложения" style="display: flex; align-items: center; justify-content: center; padding: 0; width: 32px; height: 32px; background: #8553be; border: 1px solid #8553be; border-radius: 50%; cursor: pointer;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linejoin="round">
+                    <rect x="3" y="3" width="7" height="7" rx="1.5" />
+                    <rect x="14" y="3" width="7" height="7" rx="1.5" />
+                    <rect x="3" y="14" width="7" height="7" rx="1.5" />
+                    <rect x="14" y="14" width="7" height="7" rx="1.5" />
+                </svg>
+            </button>
+
+            <button type="button" aria-label="Тема" style="display: flex; align-items: center; justify-content: center; padding: 0; width: 32px; height: 32px; background: #ffffff; border: 1px solid #e2e2e2; border-radius: 50%; cursor: pointer;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8553be" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+                </svg>
+            </button>
+        </div>
+
+        <h1 style="flex: 1; min-width: 200px; margin: 0; text-align: center; font-size: 18px; font-weight: normal; color: #8553be;">
+            (SAD) Интерфейс работы с поставщиками
+            <span style="color: #8553be; font-size: 12px;">(v.0.6.67)</span>
+        </h1>
+    </div>
+
+    <div style="display: flex; justify-content: flex-end; flex: 1; height: fit-content; align-items: center; gap: 8px;">
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+            <div style="text-align: right; font-size: 14px; color: #6e7177;">Зырянов Вадим Эдуардович</div>
+            <div style="display: flex; align-items: center; justify-content: flex-end; text-align: right; gap: 4px; color: #a3a6ac; font-size: 12px;">
+                EID: 123456
+                <button type="button" aria-label="Скопировать EID" style="display: flex; padding: 0; border: none; background: none; cursor: pointer;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#a3a6ac" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M8 9V6a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2" />
+                        <path d="M3 9H14v10a1 1 0 0 1-1 1H8l-5-5V9z" />
+                        <path d="M8 20V15H3" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div style="display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: 32px; height: 32px; background: #ffffff; color: #8553be; font-size: 12px; border: 1px solid #8553be; border-radius: 50%;">ЗВ</div>
+    </div>
+</header>
+
+<main style="box-sizing: border-box; display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; margin: 0 auto; padding: 16px; max-width: 1240px;">
+    <div style="box-sizing: border-box; display: flex; flex-direction: column; flex: 1 1 286px; padding: 16px; min-height: 250px; background: #ffffff; border: 1px solid #e2e2e2; border-radius: 8px; box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);">
+        <h2 style="margin-bottom: 12px; font-size: 16px;"><span style="color: #8553be;"># </span>FED</h2>
+        <p style="flex: 1; margin: 0 0 16px; color: #6e7177; font-size: 14px;">документооборот</p>
+        <a href="#" style="padding: 8px 16px; color: #8553be; font-size: 14px; text-align: center; text-decoration: none; border: 1px solid #e2e2e2; border-radius: 6px;">Перейти</a>
+    </div>
+
+    <div style="box-sizing: border-box; display: flex; flex-direction: column; flex: 1 1 286px; padding: 16px; min-height: 250px; background: #ffffff; border: 1px solid #e2e2e2; border-radius: 8px; box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);">
+        <h2 style="margin-bottom: 12px; font-size: 16px;"><span style="color: #8553be;"># </span>FRP FIN-FRP Интерфейс по работе с платежами</h2>
+        <p style="flex: 1; margin: 0 0 16px; color: #6e7177; font-size: 14px;">Создание разовых и периодических платежей</p>
+        <a href="#" style="padding: 8px 16px; color: #8553be; font-size: 14px; text-align: center; text-decoration: none; border: 1px solid #e2e2e2; border-radius: 6px;">Перейти</a>
+    </div>
+
+    <div style="box-sizing: border-box; display: flex; flex-direction: column; flex: 1 1 286px; padding: 16px; min-height: 250px; background: #ffffff; border: 1px solid #e2e2e2; border-radius: 8px; box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);">
+        <h2 style="margin-bottom: 12px; font-size: 16px;"><span style="color: #8553be;"># </span>SSP Админка для портала поставщиков услуг</h2>
+        <p style="flex: 1; margin: 0 0 16px; color: #6e7177; font-size: 14px;">Админка для управления по проекту SSP</p>
+        <a href="#" style="padding: 8px 16px; color: #8553be; font-size: 14px; text-align: center; text-decoration: none; border: 1px solid #e2e2e2; border-radius: 6px;">Перейти</a>
+    </div>
+
+    <div style="box-sizing: border-box; display: flex; flex-direction: column; flex: 1 1 286px; padding: 16px; min-height: 250px; background: #ffffff; border: 1px solid #e2e2e2; border-radius: 8px; box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);">
+        <h2 style="margin-bottom: 12px; font-size: 16px;"><span style="color: #8553be;"># </span>FIN-SAD Интерфейс работы с&nbsp;поставщиками</h2>
+        <p style="flex: 1; margin: 0 0 16px; color: #6e7177; font-size: 14px;">Система документооборота компании. Основной функционал работа с поставщиками и их документами</p>
+        <a href="#" style="padding: 8px 16px; color: #8553be; font-size: 14px; text-align: center; text-decoration: none; border: 1px solid #e2e2e2; border-radius: 6px;">Перейти</a>
+    </div>
+
+    <div style="box-sizing: border-box; display: flex; flex-direction: column; flex: 1 1 286px; padding: 16px; min-height: 250px; background: #ffffff; border: 1px solid #e2e2e2; border-radius: 8px; box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);">
+        <h2 style="margin-bottom: 12px; font-size: 16px;"><span style="color: #8553be;"># </span>FTP Интерфейс казначейского шлюза</h2>
+        <p style="flex: 1; margin: 0 0 16px; color: #6e7177; font-size: 14px;">Казначейский шлюз клеймы начинаются с FTP</p>
+        <a href="#" style="padding: 8px 16px; color: #8553be; font-size: 14px; text-align: center; text-decoration: none; border: 1px solid #e2e2e2; border-radius: 6px;">Перейти</a>
+    </div>
+
+    <div style="box-sizing: border-box; display: flex; flex-direction: column; flex: 1 1 286px; padding: 16px; min-height: 250px; background: #ffffff; border: 1px solid #e2e2e2; border-radius: 8px; box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);">
+        <h2 style="margin-bottom: 12px; font-size: 16px;"><span style="color: #8553be;"># </span>FA FINANCE-AUTH Админка по работе с правами на финансовые сервисы</h2>
+        <p style="flex: 1; margin: 0 0 16px; color: #6e7177; font-size: 14px;">Интерфейс авторизации для интерфейсов финансового отдела</p>
+        <a href="#" style="padding: 8px 16px; color: #8553be; font-size: 14px; text-align: center; text-decoration: none; border: 1px solid #e2e2e2; border-radius: 6px;">Перейти</a>
+    </div>
+
+    <div style="box-sizing: border-box; display: flex; flex-direction: column; flex: 1 1 286px; padding: 16px; min-height: 250px; background: #ffffff; border: 1px solid #e2e2e2; border-radius: 8px; box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);">
+        <h2 style="margin-bottom: 12px; font-size: 16px;"><span style="color: #8553be;"># </span>FIN-DICTIONARIES Справочники финансов</h2>
+        <p style="flex: 1; margin: 0 0 16px; color: #6e7177; font-size: 14px;">Новый проект по словарям.</p>
+        <a href="#" style="padding: 8px 16px; color: #8553be; font-size: 14px; text-align: center; text-decoration: none; border: 1px solid #e2e2e2; border-radius: 6px;">Перейти</a>
+    </div>
+
+    <div style="box-sizing: border-box; display: flex; flex-direction: column; flex: 1 1 286px; padding: 16px; min-height: 250px; background: #ffffff; border: 1px solid #e2e2e2; border-radius: 8px; box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);">
+        <h2 style="margin-bottom: 12px; font-size: 16px;"><span style="color: #8553be;"># </span>FBS</h2>
+        <p style="flex: 1; margin: 0 0 16px; color: #6e7177; font-size: 14px;">Finance bank statements — банковские выписки</p>
+        <a href="#" style="padding: 8px 16px; color: #8553be; font-size: 14px; text-align: center; text-decoration: none; border: 1px solid #e2e2e2; border-radius: 6px;">Перейти</a>
+    </div>
+
+    <div style="box-sizing: border-box; display: flex; flex-direction: column; flex: 1 1 286px; padding: 16px; min-height: 250px; background: #ffffff; border: 1px solid #e2e2e2; border-radius: 8px; box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);">
+        <h2 style="margin-bottom: 12px; font-size: 16px;"><span style="color: #8553be;"># </span>FBC</h2>
+        <p style="flex: 1; margin: 0 0 16px; color: #6e7177; font-size: 14px;">Контроль бюджета</p>
+        <a href="#" style="padding: 8px 16px; color: #8553be; font-size: 14px; text-align: center; text-decoration: none; border: 1px solid #e2e2e2; border-radius: 6px;">Перейти</a>
+    </div>
+
+    <div style="box-sizing: border-box; display: flex; flex-direction: column; flex: 1 1 286px; padding: 16px; min-height: 250px; background: #ffffff; border: 1px solid #e2e2e2; border-radius: 8px; box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);">
+        <h2 style="margin-bottom: 12px; font-size: 16px;"><span style="color: #8553be;"># </span>FIN-EDI</h2>
+        <p style="flex: 1; margin: 0 0 16px; color: #6e7177; font-size: 14px;">тут могла быть ваша реклама</p>
+        <a href="#" style="padding: 8px 16px; color: #8553be; font-size: 14px; text-align: center; text-decoration: none; border: 1px solid #e2e2e2; border-radius: 6px;">Перейти</a>
+    </div>
+
+    <div style="box-sizing: border-box; display: flex; flex-direction: column; flex: 1 1 286px; padding: 16px; min-height: 250px; background: #ffffff; border: 1px solid #e2e2e2; border-radius: 8px; box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);">
+        <h2 style="margin-bottom: 12px; font-size: 16px;"><span style="color: #8553be;"># </span>FIN-COUNTERPARTY</h2>
+        <p style="flex: 1; margin: 0 0 16px; color: #6e7177; font-size: 14px;">Получение информации о контрагентах</p>
+        <a href="#" style="padding: 8px 16px; color: #8553be; font-size: 14px; text-align: center; text-decoration: none; border: 1px solid #e2e2e2; border-radius: 6px;">Перейти</a>
+    </div>
+
+    <div style="box-sizing: border-box; display: flex; flex-direction: column; flex: 1 1 286px; padding: 16px; min-height: 250px; background: #ffffff; border: 1px solid #e2e2e2; border-radius: 8px; box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);">
+        <h2 style="margin-bottom: 12px; font-size: 16px;"><span style="color: #8553be;"># </span>FINAGR — Менеджер по согласованию</h2>
+        <p style="flex: 1; margin: 0 0 16px; color: #6e7177; font-size: 14px;">Агримент</p>
+        <a href="#" style="padding: 8px 16px; color: #8553be; font-size: 14px; text-align: center; text-decoration: none; border: 1px solid #e2e2e2; border-radius: 6px;">Перейти</a>
+    </div>
+</main>
+
+</body>
+</html>
